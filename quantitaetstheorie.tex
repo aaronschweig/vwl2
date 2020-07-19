@@ -20,7 +20,7 @@ Mithilfe der Inflation, einer Erhöhung der Geldmenge, soll ein höherer Preis e
     M \cdot V = T \cdot P
 \end{equation}\label{Transaktionsversion}
 
-Die allgemeine Quantitätsgleichung beschreibt eine Identität zwischen dem Produk der Geldmenge $M$ und er Geldumlaufgeschwindigkeit $V$, sowie dem Produkt der Anzahl aller Transaktionen $T$ und dem durchschnittlichen Preis $P$ dieser Transaktionen. Um die Identität etwas deutlicher zu machen, können die beiden Seiten der Gleichung folgendermaßen interpretiert werden:
+Diese Quantitätsgleichung beschreibt eine Identität zwischen dem Produkt der Geldmenge $M$ und der Geldumlaufgeschwindigkeit $V$, sowie dem Produkt der Anzahl aller Transaktionen $T$ und dem durchschnittlichen Preis $P$ dieser Transaktionen. Um die Identität etwas deutlicher zu machen, können die beiden Seiten der Gleichung folgendermaßen interpretiert werden:
 
 \subsubsection*{Das Produkt $M \cdot V$:}
 Die Geldmenge multipliziert mit der Geldumlaufgeschwindigkeit stellt nichts anderes dar, als die \enquote{Summe aller Zahlungen} in einer Realwirtschaft.
@@ -46,34 +46,37 @@ Eine alternative Form der Quantitätsgleichung ist die \textbf{Einkommensversion
 
 Eine empirische Darstellungsmöglichkeit für den Output $Y$ in der Volkswirtschaft stellt das Bruttoinlandsprodukt (BIP) dar. Mit der Einschränkung der Betrachtung aller Transaktionen auf die, des realen BIP lösen sich weitere unbekannte Elemente der Gleichung \vref{Transaktionsversion}. So stellt z.B. $P$ nun den BIP-Defaltor dar. Das Produk $Y \cdot P$ ist somit eine bekannte größe, das \textbf{nominale BIP}\autocite*[125]{mankiw2017}.
 
-Um die signifikante Verkleinerung auf der rechten Seite der Gleichung abzufedern, muss auch die Umlaufgeschwindigkeit $V$ angepasst werden. $Y$ stellt gleichzeitig das Gesamteinkommen dar, weswegen in dieser Version der Quantitätsgleichung auch als \textbf{Einkommenskreislaufgeschweindigkeit $V_Y$} bezeichnet wird. Die Einkommensversion der Quantitätsgleichung lässt sich also folgendermaßen formulieren:
+Um die signifikante Verkleinerung auf der rechten Seite der Gleichung abzufedern, muss auch die Umlaufgeschwindigkeit $V$ angepasst werden. $Y$ stellt gleichzeitig das Gesamteinkommen dar, weswegen in dieser Version der Quantitätsgleichung $V$ auch als \textbf{Einkommenskreislaufgeschwindigkeit $V_Y$} bezeichnet wird. Die Einkommensversion der Quantitätsgleichung lässt sich also folgendermaßen formulieren:
 \begin{equation}
     \tag{Einkommensversion}
     M \cdot V_Y = Y \cdot P
 \end{equation}\label{Einkommensversion}
-In der Literatur wird die Formel dabei auch ohne den Index bei der Umlaufgeschwindigkeit geschrieben.
+In der Literatur wird die Formel oftmals ohne den Index bei der Umlaufgeschwindigkeit geschrieben. Im Rahmen der Arbeit wird dieser beibehalten, um die Unterscheidbarkeit zu wahren.
 
-\subsection{Von der Quantitäsgleichung zur Inflationstheorie}
+\subsection{Die Geldnachfragefunktion und die Quantitätsgleichung}
 
-Es lässt sich also erkennen, dass ein Zusammenhang besteht, zwischen der vorhandenen Geldmenge $M$ und dem Güterpreis $P$. Wie bereits Eingangs des Kapitels erwähnt stellen diese Elemente wichtige Bestandteile der Inflationstheorie der Monetaristen. Nun, da grundlegende Bestandteile bekannt sind, können weitere Elemente der Inflationstheorie erläutert werden. Ein wichtiges Kernstück dieser Theorie ist die Inflationshypothese. Diese lässt sich nun folgendermaßen erklären \autocite{defMon}:
+Ein weiterer wichtiger Baustein der Formel stellt die bisher nur beiläufig betrachtete Umlaufgeschwindigkeit $V$ dar. Um zu verstehen wieso dieser ein bestimmtes Verhalten zugewiesen werden kann, muss zuerst geklärt werden, was die Realkasse und die Geldnachfragefunktion ist.\\
+Bei der \textbf{Realkasse} handelt es sich um den Quotienten der einem Wirtschaftssubjekt zur Verfügung stehenden Geldmenge $M$ und dem durchschnittlichen Preis $P$.
+$$ R = \frac{M}{P}$$
+Die Realkasse drückt also die \textbf{Kaufkraft} des Geldes aus \autocite[125f]{mankiw2017}.
 
-Nimmt man nun die Einkommensversion der Quantitätsgleichung \vref{Einkommensversion} so kann man durch umstellen auf folgenden Sachverhalt kommen:
-$$ P = \frac{M \cdot V_Y}{Y} $$
-Eine einfachere Form der Darstellung, welche später Zusammenhänge besser verdeutlicht kann gewählt werden, wenn man die Änderungsraten dieser Größen betrachtet. Bei Betrachtung der Änderung ergibt sich folgende Formel:
-$$ \widehat{P} = \widehat{M} + \widehat{V_Y} - \widehat{Y} $$
-Es lassen sich nun folgende Ursachen für eine Veränderung des Preisniveaus finden:
+Die \textbf{Geldnachfragefunktion} beschreibt, welche Größen die Höhe der Realkasse bestimmen, die ein Wirtschaftssubjekt zu erhalten wünscht.
+Eine simple Funktion sieht folgendermaßen aus:
+$$(\frac{M}{P})^d=k \cdot Y\text{, mit } k \geq 0 \in \mathbb{R}$$\label{Geldnachfragefunktion}
+Dabei kann fesgestellt werden, dass ein proportinaler Zusammenhang zwischen der nachgefragten Höhe der Realkasse und des Einkommens besteht. Dies führt zu einer weiteren Betrachtungsweise der Quantitätsgleichung:
 
-\begin{enumerate}
-    \item Die Geldmenge $M$ nimmt zu
-    \item Die Einkommenskreislaufgeschweindigkeit/Umlaufgeschwindigkeit $V_Y$ nimmt zu
-    \item Das BIP sinkt
-\end{enumerate}
+\subsection{Camebridge-Version der Quantitätsgleichung}
 
-Es lässt sich also feststellen, dass im Rahmen der Quantitätstheorie immer dann Inflation entsteht, wenn gilt:
-    \[
-        \widehat{M} > \widehat{Y} - \widehat{V_Y}
-    \]
+Man nehme an, die Nachfrage nach Realkasse $(\frac{M}{P})^d$ sei gleich dem Angebot $\frac{M}{P}$. Dies führt zu folgender Gleichung:
+\begin{align}
+    \frac{M}{P} &= k \cdot Y \\
+    M \cdot \frac{1}{k} &= P \cdot Y
+\end{align}
 
+Eine Interpretation dieser Gleichung kann in \cite[126]{mankiw2017} nachgesehen werden.
+
+\subsection{Konstanz der Umlaufgeschwindigkeit - Die Quantitätstheorie des Geldes}\label{sec:Umlaufgeschwindigkeit}
+\marginpar{Hier mal schauen was Sinn macht und wichtig ist}
 Eine weitere Annahme, welche bereits Eingangs angesprochen wurde, ist, dass es sich bei der Umlaufgeschwindigkeit $V_Y$ um einen (annähernd) konstanten Wert $\overline{V}_Y$ handelt. Die Bedeutung dieser Annahme kann am besten anhand eines Beispiels aufgezeigt werden.
 
 \begin{example}[Konstante Umlaufgeschwindigkeit]
@@ -103,6 +106,28 @@ Laut der Gleichung\, \vref*{Einkommensversion} bedeutet das also, dass ein propo
 Dies führt zu der finalen Spezifizierung, die die Quantitätsgleichung von der allg. Quantitätstheorie und der darin beschriebenen Identität unterscheidet. Es besteht ein kausaler Zusammenhang zwischen der Geldmenge $M$ und dem durchschnittlichen Preis $P$.
 Inhärent hat dies zur Folge, dass durch die Steuerung der Geldmenge auch der \enquote{Wert des Geldes}, also die aktuelle Inflation oder Deflation, gesteuert werden können.
 
+\subsection{Von der Quantitäsgleichung zur Inflationstheorie}
+
+Es lässt sich also erkennen, dass ein Zusammenhang besteht, zwischen der vorhandenen Geldmenge $M$ und dem Güterpreis $P$. Wie bereits Eingangs des Kapitels erwähnt stellen diese Elemente wichtige Bestandteile der Inflationstheorie der Monetaristen. Nun, da grundlegende Bestandteile bekannt sind, können weitere Elemente der Inflationstheorie erläutert werden. Ein wichtiges Kernstück dieser Theorie ist die Inflationshypothese. Diese lässt sich nun folgendermaßen erklären \autocite{defMon}:
+
+Nimmt man nun die Einkommensversion der Quantitätsgleichung \vref{Einkommensversion} so kann man durch umstellen auf folgenden Sachverhalt kommen:
+$$ P = \frac{M \cdot V_Y}{Y} $$
+Eine einfachere Form der Darstellung, welche später Zusammenhänge besser verdeutlicht kann gewählt werden, wenn man die Änderungsraten dieser Größen betrachtet. Bei Betrachtung der Änderung ergibt sich folgende Formel:
+$$ \widehat{P} = \widehat{M} + \widehat{V_Y} - \widehat{Y} $$
+Es lassen sich nun folgende Ursachen für eine Veränderung des Preisniveaus finden:
+
+\begin{enumerate}
+    \item Die Geldmenge $M$ nimmt zu
+    \item Die Einkommenskreislaufgeschweindigkeit/Umlaufgeschwindigkeit $V_Y$ nimmt zu
+    \item Das BIP sinkt
+\end{enumerate}
+
+Des weiteren ist, wie bereits in \vref{sec:Umlaufgeschwindigkeit} erwähnt, anzunehmen, dass die Umlaufgeschwindigkeit $V$ näherungsweise als Konstante $\overline{V}$ anzunehmen ist. Dies bedeutet gleichermassen, dass $\widehat{\overline{V_Y}} \approx 0$. Es lässt sich also feststellen, dass im Rahmen der Quantitätstheorie immer dann Inflation entsteht, wenn gilt:
+    \[
+        \widehat{M} > \widehat{Y} - \widehat{V_Y} \text{, mit } \widehat{V_Y} \approx 0
+    \]\label{Inflationshyptothese}
+Dieser Sachverhalt ist empirisch belegt, was bedeutet, dass durch eine zu große Geldmengenerhöhung Inflation ausgelöst werden kann. Hier greift dann die Inflationstheorie der Monetaristen - \enquote{Money matters - Es kommt auf die Geldmenge an}
+
 \section{Kritik an der Quantitätstheorie und -formel}
 
 Die Kritik an der Quantitätstheorie ergibt sich aus einem sehr realen Beispiel aus der Ökonomie in Amerika während der Finanzkrise 08/09. Dort argumentiert der Ökonom Paul Krugman folgendermaßen:
@@ -128,11 +153,4 @@ Es gibt also innerhalb der Ökonomie keine besseren Tests, ob eine Theorie valid
     \caption{Entwicklung des Preises auf Basis der Geldmenge während der Finazkrise 08/09, \cite{Krugman2011}}
 \end{figure}    
 
-Eindeutig lässt sich dabei feststellen, dass obwohl die Geldmenge innerhalb der Krisenzeit, sowie auch danach, massiv auf das fast dreifache anstieg. Laut der Quantitätstheorie und der Quantitätsgleichung \vref{allg. Q-Formel} müsste also auch der durchschnittliche Preis um einen äquivalenten Faktor ansteigen. In der Grafik ist allerdings zu erkennen, dass dieser Anstieg entgegen der Prognose der Quantitätstheorie, nicht erfolgte.
-
-\subsection{Wie erhält der Endverbaucher das Geld?}
-
-Innerhalb der Quantitätstheorie wird oftmals in Beispielen argumentiert, dass es nicht von Relevanz ist, wie eine Geldmengenerhöhung seitens der Zentralbank zum Endverbraucher gelangt. Hierbei wird von den Vertretern dieser Theorie oftmals die in Beipsiel \vref{Bsp.kUmlauf} erwähnt Helikopteranekdote angeführt.
-
-
-Diese Annahme bringt weitere Herausforderungen mit sich, da es bei weitem nicht trivial oder ohne Bedeutung ist, wie eine Geldmengenerhöhung beim Endverbraucher ankommt. Die direkteren Nutznießer einer Geldmengenerhöhung sind primär Banken und andere Finanzinstitute, sodass der Endverbraucher eher an zweiter, wenn nicht sogar dritter Stelle steht. Somit gilt es auch für diese Annahme eine Lösung zu finden, die sich im Rahmen der Theorie bewegt, welche gleichzeitig keine der anderen Annahmen verletzt oder die Einschränkung der Allgemeinegültigkeit der Theorie mit sich bringt.
+Eindeutig lässt sich dabei feststellen, dass obwohl die Geldmenge innerhalb der Krisenzeit, sowie auch danach, massiv auf das fast dreifache anstieg, es keine Veränderung bei den Preisen enstprechend der Inflationshypothese \vref{Inflationshyptothese} gab. Laut der Quantitätstheorie und der Geldnachfragefunktion \vref{Geldnachfragefunktion} müsste also auch der durchschnittliche Preis um einen äquivalenten Faktor ansteigen. In der Grafik ist allerdings zu erkennen, dass dieser Anstieg entgegen der Prognose der monetaristischen Inflationstheorie, nicht erfolgte.
