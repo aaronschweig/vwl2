@@ -73,16 +73,18 @@ Man nehme an, die Nachfrage nach Realkasse $(\frac{M}{P})^d$ sei gleich dem Ange
     M \cdot \frac{1}{k} &= P \cdot Y
 \end{align}
 
-Eine Interpretation dieser Gleichung kann in \cite[126]{mankiw2017} nachgesehen werden.
+Eine Interpretation dieser Gleichung kann in \cite[126]{mankiw2017}, sowie in \cite[14]{historyQunatitaetstheorie} nachgelesen werden.
 
-\subsection{Konstanz der Umlaufgeschwindigkeit - Die Quantitätstheorie des Geldes}\label{sec:Umlaufgeschwindigkeit}
+\subsection{Konstanz der Umlaufgeschwindigkeit - die Quantitätstheorie des Geldes}\label{sec:Umlaufgeschwindigkeit}
 Eine sehr wichtige weitere Annahme betrifft, wie bereits zu beginn des Kapitels erwähnt, die Umlaufgeschwindigkeit $V_Y$. In den obigen Versionen der Quantitäsgleichung wurde die Umlaufgeschwindigkeit als Beziehung zwischen dem \textit{nominalen BIP} und der vorhandenen Geldmenge betrachtet. Erweitert man diese Annahme, durch die Forderung, dass die Umlaufgeschwindigkeit $\overline{V}_Y$ konstant ist, so kann die Quantitätstheorie als hilfreiches Instrument zur Einschätzung der Wirkung des Geldes genutzt werden. Die Gleichung führt zur \textbf{Quantitätstheorie des Geldes}\autocite[126]{mankiw2017}.
 
-Diese Annahme führt zu einer weiteren Gleichung:
+\begin{equation}
+    \tag{Quantitätshteorie des Geldes}
+    M \cdot \overline{V_Y} = Y \cdot P
+\end{equation}
+\label{qTheorieDesGeldes}
 
-$$M \cdot \overline{V_Y} = Y \cdot P$$\label{qTheorieDesGeldes}
-
-Mithilfe der Annahme der Konstanz von $\overline{V}_Y$ folgt mithilfe der Formel, dass ein proportinaler Zusammenhang zwischen der zur Verfügung stehenden Geldmenge $M$ und dem nominalen BIP $Y \cdot P$ bestehen muss.
+Mithilfe der Annahme der Konstanz von $\overline{V}_Y$ folgt aus der Formel, dass ein proportinaler Zusammenhang zwischen der zur Verfügung stehenden Geldmenge $M$ und dem nominalen BIP $Y \cdot P$ bestehen muss.
 
 In der Realität gilt diese Einschränkung natürlich nur näherungsweise, da sich die Umlaufgeschwindigkeit enstprechend der Geldnachfragefunktion ändert. Verschiedene Faktoren können Einfluss auf die Geldumlaufgeschwindigkeit haben\autocite[126]{mankiw2017}.
 
@@ -91,10 +93,12 @@ In der Realität gilt diese Einschränkung natürlich nur näherungsweise, da si
 Es lässt sich also erkennen, dass ein Zusammenhang besteht, zwischen der vorhandenen Geldmenge $M$ und dem Güterpreis $P$. Wie bereits Eingangs des Kapitels erwähnt stellen diese Elemente wichtige Bestandteile der Inflationstheorie der Monetaristen. Nun, da grundlegende Bestandteile bekannt sind, können weitere Elemente der Inflationstheorie erläutert werden. Ein wichtiges Kernstück dieser Theorie ist die Inflationshypothese. Diese lässt sich nun folgendermaßen erklären \autocite{defMon}:
 
 Nimmt man nun die Einkommensversion der Quantitätsgleichung \vref{Einkommensversion} so kann man durch umstellen auf folgenden Sachverhalt kommen:
-$$ P = \frac{M \cdot V_Y}{Y} $$
-Eine einfachere Form der Darstellung, welche später Zusammenhänge besser verdeutlicht kann gewählt werden, wenn man die Änderungsraten dieser Größen betrachtet \autocite[111]{clement1998grundlagen}. Bei Betrachtung der Änderung ergibt sich folgende Formel:
+\[
+    P = \frac{M \cdot V_Y}{Y}    
+\]
+Eine einfachere Form der Darstellung kann gewählt werden, wenn man die Änderungsraten dieser Größen betrachtet \autocite[111]{clement1998grundlagen}. Bei Betrachtung der Änderung ergibt sich folgende Formel:
 $$ \widehat{P} = \widehat{M} + \widehat{V_Y} - \widehat{Y} $$
-Es lassen sich nun folgende Ursachen für eine Veränderung des Preisniveaus finden:
+Es lassen sich nun folgende Ursachen für eine Erhöhung des Preisniveaus finden, sofern davon ausgegangen wird, dass nur eine Variable sich ändert und alle Anderen relativ konstant bleiben:
 
 \begin{enumerate}
     \item Die Geldmenge $M$ nimmt zu
@@ -102,7 +106,7 @@ Es lassen sich nun folgende Ursachen für eine Veränderung des Preisniveaus fin
     \item Das BIP sinkt
 \end{enumerate}
 
-Des weiteren ist, wie bereits in \vref{sec:Umlaufgeschwindigkeit} erwähnt, anzunehmen, dass die Umlaufgeschwindigkeit $V$ näherungsweise als Konstante $\overline{V}$ anzunehmen ist. Dies bedeutet gleichermassen, dass $\widehat{\overline{V_Y}} \approx 0$. Es lässt sich also feststellen, dass im Rahmen der Quantitätstheorie immer dann Inflation entsteht, wenn gilt \autocite[16--17]{historyQunatitaetstheorie}:
+Des weiteren ist, wie bereits in \vref{sec:Umlaufgeschwindigkeit} erwähnt, anzunehmen, dass die Umlaufgeschwindigkeit $V_Y$ näherungsweise als Konstante $\overline{V}_Y$ anzunehmen ist. Dies bedeutet gleichermassen, dass $\widehat{\overline{V_Y}} \approx 0$. Es lässt sich also feststellen, dass im Rahmen der Quantitätstheorie immer dann Inflation entsteht, wenn gilt \autocite[16--17]{historyQunatitaetstheorie}:
     \[
         \widehat{M} > \widehat{Y} - \widehat{V_Y} \text{, mit } \widehat{V_Y} \approx 0
     \]\label{Inflationshyptothese}
@@ -112,25 +116,21 @@ Dieser Sachverhalt ist empirisch belegt, was bedeutet, dass durch eine zu große
 
 Die Kritik an der Quantitätstheorie ergibt sich aus einem sehr realen Beispiel aus der Ökonomie in Amerika während der Finanzkrise 08/09. Dort argumentiert der Ökonom Paul Krugman folgendermaßen:
 
-\subsection{Kritik durch Paul Krugman}
-
 \enquote{
-[T]he past three years — the post-Lehman era during which the Fed presided over a tripling of the monetary base — have been an excellent test of that model [die Quantitätstheorie], which has failed with flying colors ... [W]hen you triple the monetary base, the resulting inflation shouldn’t be something that depends on the fine details — unless the model is completely wrong.\\
-And the model is completely wrong. You don’t get more conclusive tests than this in economics. [...] 
-And this in turn tells you something about the people pushing this stuff. They had a model; it made predictions; the predictions were utterly, totally wrong; and they have just dug in further.
+[T]he past three years — the post-Lehman era during which the Fed presided over a tripling of the monetary base — have been an excellent test of that model [die Quantitätstheorie], which has failed with flying colors ... [W]hen you triple the monetary base, the resulting inflation shouldn’t be something that depends on the fine details — unless the model is completely wrong. And the model is completely wrong. You don’t get more conclusive tests than this in economics. [...] And this in turn tells you something about the people pushing this stuff. They had a model; it made predictions; the predictions were utterly, totally wrong; and they have just dug in further.
 }\autocite{Krugman2011} 
 
-Dieses Zitat bezieht sich, wie bereits oben erwähnt, auf die Finanzkrise und die Art und Weise, wie die FED versucht hat dieser entgegenzuwirken. Nun kommt die Frage auf: Wieso wird genau diese Krise gewählt, um eine Kritik an der Quantitätstheorie zu formulieren. Diese Antwort wird bereits von Krugman in seinem Zitat gegeben:
+Innerhalb des von Krugman beschriebenen Sachverhalts versuchte die FED während der Finanzkrise in Amerika die Inflation durch Erhöhen der Geldmenge zu beeinflussen. Eine Krisenzeit stellt eine Theorie noch einmal vor eine besondere Herausforderung, da dort Annahmen, welche für eine \enquote{normale} Zeit gültig sind, eventuell ihre Gültigkeit verlieren. Krugman selbst sagt in diesem Zitat:
 \begin{center}
     \enquote{You don’t get more conclusive tests than this in economics.}
 \end{center}
 
-Es gibt also innerhalb der Ökonomie keine besseren Tests, ob eine Theorie valide ist, oder Schwächen aufweist, als ein Beispiel aus der Realität. In folgender Grafik ist zu erkennen, wie sich bei steigender Geldmenge der durchschnittliche Preis in dieser Zeit entwickelt hat.
+% In folgender Grafik ist zu erkennen, wie sich bei steigender Geldmenge der durchschnittliche Preis in dieser Zeit entwickelt hat.
 
 \begin{figure}[H]
     \centering
     \includegraphics{img/100711krugman3-blog480.jpg}
-    \caption{Entwicklung des Preises auf Basis der Geldmenge während der Finazkrise 08/09, \cite{Krugman2011}}
+    \caption{Monetary base and prices, \cite{Krugman2011}}
 \end{figure}    
 
-Eindeutig lässt sich dabei feststellen, dass obwohl die Geldmenge innerhalb der Krisenzeit, sowie auch danach, massiv auf das fast dreifache anstieg, es keine Veränderung bei den Preisen enstprechend der Inflationshypothese \vref{Inflationshyptothese} gab. Laut der Quantitätstheorie und der Geldnachfragefunktion \vref{Geldnachfragefunktion} müsste also auch der durchschnittliche Preis um einen äquivalenten Faktor ansteigen. In der Grafik ist allerdings zu erkennen, dass dieser Anstieg entgegen der Prognose der monetaristischen Inflationstheorie, nicht erfolgte.
+Eindeutig lässt sich dabei feststellen, dass obwohl die Geldmenge innerhalb der Krisenzeit, sowie auch danach, massiv auf das fast dreifache anstieg, es keine Veränderung bei den Preisen enstprechend der Inflationshypothese \vref{Inflationshyptothese} gab. Laut der Quantitätstheorie und der Geldnachfragefunktion \vref{Geldnachfragefunktion} müsste der durchschnittliche Preis um einen proportionalen Faktor ansteigen. In der Grafik ist allerdings zu erkennen, dass dieser Anstieg entgegen der Prognose der monetaristischen Inflationstheorie, nicht erfolgte.
